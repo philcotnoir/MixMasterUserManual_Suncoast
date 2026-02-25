@@ -1,0 +1,60 @@
+# MixMaster WECS User Manual
+
+**Automated Order Preparation Solutions**
+
+<img src="../docs/images/getting-started/logo1.png" width="250" alt="MixMaster Home Page">
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+*Manual Revision 3.0: Published February 2026*
+
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+## Welcome
+
+Welcome to the MixMaster WECS User Manual. 
+
+- A WECS is a **Warehouse Execution & Control System**. 
+
+This manual provides an in-depth understanding of the functions and features of the MixMaster WECS.
+
+MixMaster is the central coordination platform that manages warehouse distribution, orchestrating the flow of production across multiple sub-systems including InnoPick, manual induction stations, and depalletizing terminals.
+
+This manual is organized by the menu sections and sub-sections found in the MixMaster interface.
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+## Manual Sections
+
+### [Getting Started](getting-started/index.md)
+How to access and log into MixMaster, including an overview of the interface.
+
+### [Home Page](home-page/index.md)
+The main dashboard showing production summary, sub-system statuses, and JIT-OOS information.
+
+### [Truckloads](truckloads/index.md)
+Managing truckloads, pallets, groupings, and production launches.
+
+### [Replenishments](replenishments.md)
+Monitoring and managing replenishment requests for InnoPick.
+
+### [Inventory](inventory/index.md)
+Viewing InnoPick inventory, flushing products, and floor position overview.
+
+### [Reports](reports/index.md)
+Automated production reports including performance, event logs, faults, and out-of-stock tracking.
+
+### [Configuration](configuration/index.md)
+Packaging format management, user accounts, operation settings, and event bus management.
+
+### [Settings](settings.md)
+User preferences, service status, and third-party notices.
+
+### [Terminals](terminals/index.md)
+Operator terminals for Top-Off, Manual Induction, and Depalletizing tasks.
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+**Navigation:** [← Depalletizing Terminal](../docs/terminals/depalletizing.md) | [Getting Started →](../docs/getting-started/index.md)
+

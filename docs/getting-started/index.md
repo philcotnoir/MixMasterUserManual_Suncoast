@@ -1,0 +1,25 @@
+# Getting Started
+
+**[Home](../index.md) > Getting Started**
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+## Overview
+
+This section covers the basics of accessing and logging into the MixMaster Warehouse Execution & Control System. 
+
+MixMaster is a web-hosted application accessed through a browser.
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+## In This Section
+
+### [Introduction](introduction.md)
+An overview of MixMaster WECS and how this manual is organized.
+
+### [Loading MixMaster](loading-mixmaster.md)
+How to open MixMaster in a browser, log in, and access the various terminals.
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+**Navigation:** [← Home](../index.md) | [Introduction →](introduction.md)

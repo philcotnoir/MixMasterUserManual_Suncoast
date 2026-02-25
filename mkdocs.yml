@@ -1,0 +1,97 @@
+site_name: MixMaster WCS User Manual
+site_description: Automated Order Preparation Solutions - MixMaster Warehouse Control System Documentation
+# site_url: https://philcotnoir.github.io/MixMasterUserManual_Suncoast/
+# repo_url: https://github.com/philcotnoir/MixMasterUserManual_Suncoast/
+
+# This tells MkDocs where your markdown files are
+docs_dir: docs
+
+# Keep URLs as file paths (fixes relative image paths in HTML tags)
+use_directory_urls: false
+
+# This is where the built HTML site will go
+site_dir: site
+
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: light blue
+  features:
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+    - content.tabs.link
+    - toc.integrate
+
+# Custom CSS for better styling
+extra_css:
+  - stylesheets/extra.css
+
+# Navigation structure
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Overview: getting-started/index.md
+    - Introduction: getting-started/introduction.md
+    - Loading MixMaster: getting-started/loading-mixmaster.md
+  - Daily Operations:
+    - Overview: daily-operations/index.md
+    - Monitoring Production: daily-operations/monitoring.md
+    - End of Day: daily-operations/end-of-day.md
+  - Home Page:
+    - Overview: home-page/index.md
+    - Production Summary: home-page/production-summary.md
+    - Sub-System Status: home-page/sub-system-status.md
+    - JIT-OOS Visuals: home-page/jit-oos.md
+  - Truckloads:
+    - Overview: truckloads/index.md
+    - Truckload List: truckloads/truckload-list.md
+    - Truckload Controls: truckloads/truckload-controls.md
+    - Truckload Groupings: truckloads/truckload-groupings.md
+  - Replenishments: replenishments.md
+  - Inventory:
+    - Overview: inventory/index.md
+    - InnoPick Inventory: inventory/innopick-inventory.md
+    - Flush: inventory/flush.md
+    - Floor Positions: inventory/floor-positions.md
+  - Reports:
+    - Overview: reports/index.md
+    - Automation Performance: reports/automation-performance.md
+    - Event Logs: reports/event-logs.md
+    - InnoPick State: reports/innopick-state.md
+    - Faults History: reports/faults-history.md
+    - Out of Stock: reports/out-of-stock.md
+    - Product QC Faults: reports/product-qc-faults.md
+  - Configuration:
+    - Overview: configuration/index.md
+    - Packaging Formats: configuration/packaging-formats.md
+    - Product Configuration Optimizer: configuration/product-config-optimizer.md
+    - User Manager: configuration/user-manager.md
+    - Operation Settings: configuration/operation-settings.md
+    - Event Bus Management: configuration/event-bus.md
+  - Settings: settings.md
+  - Terminals:
+    - Overview: terminals/index.md
+    - Top-Off Terminal: terminals/top-off.md
+    - Manual Induction: terminals/manual-induction.md
+    - Depalletizing Terminal: terminals/depalletizing.md
+
+# Enable search
+plugins:
+  - search
+
+# Markdown extensions for better formatting
+markdown_extensions:
+  - tables
+  - nl2br
+  - admonition
+  - def_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true

@@ -1,0 +1,118 @@
+# Truckload List
+
+**[Home](../index.md) > [Truckloads](index.md) > Truckload List**
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+## Viewing Truckloads
+
+When MixMaster receives Truckload information from the client's system, it displays all available Truckloads on the page. Each truckload is made up of a certain number of client pallets.
+
+<img src="../images/truckloads/truckloads-overview1.png" width="1400" alt="Truckloads Page Overview">
+
+### Information visible on this page:
+
+#### For Groups / Truckloads:
+
+- **Truckload**: Truckload # or Name
+- **Equipment**: Associated Equipment Details
+- **TruckNumber**: Number of the associated Truck
+- **Destination**
+- **Delivery Date**: Date when the Group is scheduled for delivery to client.
+- **Pallets**: # of Pallets within the Group / Truckloads
+- **InnoPick**: # of cases from InnoPick for this Group / Truckload
+- **TopOff**: # of cases going to TopOff for this Group / Truckload
+- **OOS**: # of cases that are Out of Stock for this Group / Truckload
+- **Status**:  Pending, In Queue, Progress Bar (showing level of copmletion).
+
+
+<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+
+## Expanding Truckload Details
+
+A truckload can be selected and expanded by clicking the magnifying glass icon. This will make a pop-up appear with the Truckload details.
+
+<img src="../images/truckloads/truckload-details2.png" width="800" alt="Truckload Details Expanded">
+
+### Information visible on this page:
+
+#### For Pallets within Groups / Truckloads:
+
+- **Pallet**: Pallet ID
+- **Pallet Type**: 1 (32x37) or 2 (40x48)
+- **Palletizer**: PAL_A or PAL_B (only visible once it has been assigned)
+- **InnoPick**: # of cases from InnoPick for this Pallet
+- **TopOff**: # of cases going to TopOff for this Pallet
+- **OOS**: # of cases that are Out of Stock for this Pallet
+- **Sequence**: The build order of the Pallets for this Truckload
+- **Status**: Pending, In Queue, In Progress, or Completed.
+
+<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+
+## Expanding Pallet Details within Group / Truckloads 
+
+Each horizontal line represents a different pallet within the Truckload. And each pallet can be expanded to view its products by clicking the **+** sign:
+
+<img src="../images/truckloads/truckload-details.png" width="800" alt="Truckload Details Expanded">
+
+Alternatively, the user can click **Expand All** to see the details of all the Truckloads in that Group:
+
+<img src="../images/truckloads/expand-all.png" width="800" alt="Expand All Truckloads">
+
+### Information visible on this page:
+
+#### For Pallets within Truckloads:
+
+**Note:** The expanded details show a *list of products within the Pallet* in the order of ascending SKU #s. This is not the case sequence used for palletizing. For that, one must click on the **View Case Sequence** button (see next sub-section).
+
+- **SKU**: The SKU # of this / these cases
+- **Product**: Product description
+- **InnoPick**: # of these cases coming from InnoPick on this pallet
+- **TopOff**: # of these cases going to TopOff on this pallet
+- **OOS**: # of these cases marked as Out of Stock on this pallet
+
+<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+
+## Viewing the Case Sequence
+
+When a pallet is selected, the user can click **View Case Sequence** to see more case details (if it has been launched), including the exact sequence of cases that MixMaster calculated in order to build it.
+
+**Note:** 
+
+- Only available for pallets that have been launched. 
+- Some details become visible as production of the pallet progresses, such as Origin HU, Date Code, Palletizer, etc.
+
+<img src="../images/truckloads/case-sequence.png" width="1400" alt="View Case Sequence">
+
+### Information visible on this page:
+
+#### For Cases within a Pallet's Case Sequence:
+
+- **ID**: The unique case ID within this pallet's sequence
+- **SKU**: The product SKU number (clickable — opens the Product Details pop-up)
+- **Name**: Product description
+- **Origin HU**: The Handling Unit (pallet) from which this case originated
+- **Date Code**: The date code associated with the case
+- **Sequence**: The position of this case within the pallet build, shown as Layer-Position (e.g., 1-0, 1-1, 2-0)
+- **Source**: The sub-system responsible for this case (e.g., InnoPick)
+- **Level**: The Level of InnoPick that will supply the case
+- **Spiral**: The Spiral or Merge that the case (and the whole pallet) is assigned to
+- **Palletizer**: The palletizer the pallet is assigned to
+- **Sequence #**: The global sequence number for this case across all production
+
+
+<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+
+## Viewing Product Details
+
+In the Truckloads page, it is also possible to click any of the Product SKU numbers to open a pop-up and see more details on that specific product. For more detailed information on the Product Packaging Formats, see [Packaging Formats](../configuration/packaging-formats.md).
+
+<img src="../images/truckloads/product-popup.png" width="400" alt="Product Details Pop-up">
+
+#### Recovery Actions
+
+- See [Packaging Formats > Recovery Actions](../configuration/packaging-formats.md#recovery-actions) for details on available recovery actions.
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+**Navigation:** [← Truckloads](index.md) | [Truckload Controls →](truckload-controls.md)

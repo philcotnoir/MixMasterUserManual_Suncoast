@@ -1,0 +1,106 @@
+# Truckload Controls
+
+**[Home](../index.md) > [Truckloads](index.md) > Truckload Controls**
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+## Pallet-Level Controls
+
+When a truckload is selected there are various functions that can be executed via the **Manage** drop-down menu. These commands affect selected individual pallets inside the Truckload.
+
+<img src="../images/truckloads/manage-dropdown.png" width="400" alt="Manage Dropdown Menu">
+
+<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+
+### Complete Pallet
+
+This will change the status of the selected pallet(s) to **Completed**. It should not be used outside of specific support scenarios, as directed by DRL.
+
+<img src="../images/truckloads/complete-pallet.png" width="350" alt="Complete Pallet Dialog">
+
+<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+
+### Hold
+
+- This function will prevent any cases from this pallet from being scheduled for output on any sub-system. 
+- If this is enabled, a pop-up appears on the Truckloads page of MixMaster on the top right:
+
+<img src="../images/truckloads/hold-popup.png" width="250" alt="Hold Pop-up Indicator">
+
+<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+
+### Clear Hold
+
+This function removes a **Hold** that has been placed, allowing InnoPick (or other sub-system) to schedule output cases for that Pallet.
+
+<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+
+### Force Assign Palletizer
+
+<img src="../images/truckloads/forceassign.png" width="300" alt="Hold Pop-up Indicator">
+
+- This feature allows an operator to resend the palletizing instructions to a specific palletizer. 
+- This is a recovery tool to be used only when needed, and with care. 
+
+### Delete Pallet
+
+- This will remove the selected pallet(s) from the Truckload
+- This should **NOT** be used by system operators 
+- It is a function that is sometimes used by system experts when troubleshooting problems
+
+<img src="../images/truckloads/delete-pallet.png" width="300" alt="Delete Pallet Confirmation">
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+## Truckload-Level Controls
+
+Additional Controls are available when navigating the Truckloads list. These commands affect the selected truckload(s).
+
+<img src="../images/truckloads/additional-controls.png" width="1400" alt="Truckload-Level Controls">
+
+<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+
+### Logs
+
+<img src="../images/truckloads/logs.png" width="900" alt="Truckload-Level Controls">
+
+- These are logs from MixMaster used by system experts for specific troubleshooting scenarios. 
+
+<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+
+### Refresh
+
+- This will update any statuses that are not reflecting the latest updates, usually referring to products that have been enabled or disabled with regard to a Pending truckload.
+
+<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+
+### Safely Reset and Back to Available
+
+- This can be executed only for truckloads that have been launched (**In Queue** or **In Progres**) 
+- It will reset all the pallets for which no cases have already been scheduled and set the truckload back to **Available**.
+
+-   If some of the pallets have already started being scheduled for output, then those pallets will remain **In Progress**, resulting in a partially-reset Truckload.
+
+-   If a Truckload has been partially reset through this function, it can be safely put back to **In Progress** because it will only produce those pallets which were completely reset (and therefore not produced).
+
+-   **Note**: If a Truckload is reset, that does not cancel the replenishment pallets which were requested to the Depalletization area.
+
+<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+
+### Reset
+
+- This feature forces a Reset of the Truckload and should only be used as part of a remote support effort guided by system experts. 
+- **Warning**: Resetting pallets during production is likely to cause irreversible changes and problematic disconnects between the various interconnected systems. 
+
+<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+
+### Delete
+
+- This action will delete the selected Truckload(s) from the page.
+- Like the **Reset** function above, this action should only be used as part of a remote support effort guided by system experts. 
+- **Warning**: Deleting pallets during production is likely to cause irreversible changes and problematic disconnects between the various interconnected systems. 
+
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+**Navigation:** [← Truckload List](truckload-list.md) | [Truckload Groupings →](truckload-groupings.md)

@@ -1,0 +1,29 @@
+# Loading MixMaster
+
+**[Home](../index.md) > [Getting Started](index.md) > Loading MixMaster**
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+## Accessing MixMaster
+
+The first step is to open a browser and navigate to the web-hosted MixMaster address.
+
+Once the landing page has loaded, the user must **Login**. The login block on the left is used to access the main MixMaster interface. On the right, the user can see the additional Terminals that can be accessed. These terminals are set up for operators for specific tasks.
+
+<img src="../images/getting-started/login.png" width="1000" alt="MixMaster Login Page">
+
+<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+
+## Logging In
+
+Enter a Username and Password into the window prompt and click **Sign In**. Alternatively, one can sign in as a guest. Guest users do not have access to a number of things: configuration settings, recovery actions, and other features that can affect production.
+
+-   After logging on, the user will remain logged in until the session is closed or the user logs off.
+
+-   Depending on the level of access granted to the user, some menus may not be accessible.
+
+-   For details about the Top-Off, Manual Induction, and Depalletizer Terminals, see [Terminals](../terminals/index.md).
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+**Navigation:** [← Introduction](introduction.md) | [Home Page →](../home-page/index.md)

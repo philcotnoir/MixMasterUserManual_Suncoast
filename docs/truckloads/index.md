@@ -1,0 +1,61 @@
+# Truckloads
+
+**[Home](../index.md) > Truckloads**
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+## Overview
+
+The Truckloads Page gathers all the information related to the production Truckloads. They are divided by status: Available, In Progress, and Completed.
+
+<img src="../images/truckloads/truckloads-overview1.png" width="1400" alt="Truckloads Page Overview">
+
+<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+
+### Buttons to Filter by Status
+
+The buttons with the 3 statuses allow the user to filter the displayed Truckloads according to their current status.
+
+<img src="../images/truckloads/filter-buttons.png" width="500" alt="Status Filter Buttons">
+
+Each Truckload is summarized in one horizontal line, and the status of each Truckload is indicated by the color of that line. 
+
+-  If the Truckload is **Available**, it is White
+-  If **In Progress**, it is Green
+-  If **Completed**, it is Grey.
+
+<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+
+### System Overview
+
+At the top of the Truckloads page, as well as at the top of the [Replenishments](../replenishments.md) page, there is a summary of various system metrics.
+
+<img src="../images/truckloads/system-overview.png" width="450" alt="System Overview Metrics">
+
+-   The **L1** to **L5** numbers on the left indicate the number of active Replenishments due for each Level of InnoPick. These replenishments are queued per level. As production first begins, pallets are put into progress and replenishment requests are processed and queued. As the number of replenishments decreases (as seen in the numbers above), more pallets are automatically set into progress and more replenishments are requested.
+
+-   **Inventory Snapshot**: These numbers indicate the number of cases on each level of InnoPick, as well as the **Total Cs. InnoPick** number.
+
+<img src="../images/truckloads/lanes-summary.png" width="350" alt="InnoPick Lanes Summary">
+
+-   **InnoPick Lanes Summary**: The user can also see at a glance how many lanes are empty (**Available Lanes**) and how many lanes are disabled (**Disabled Lanes**).
+-   Click on the numbers to get a level-by-level breakdown of the Available and Disabled lanes.   
+
+<img src="../images/truckloads/system-overview2.png" width="200" alt="InnoPick Lanes Summary">
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+## In This Section
+
+### [Truckload List](truckload-list.md)
+Viewing, expanding, and inspecting individual truckloads and their pallets.
+
+### [Truckload Controls](truckload-controls.md)
+Managing pallets and truckloads: Complete, Hold, Reset, Delete, and other actions.
+
+### [Truckload Groupings](truckload-groupings.md)
+Grouping truckloads for production launches and managing group operations.
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+**Navigation:** [← JIT-OOS Visuals](../home-page/jit-oos.md) | [Truckload List →](truckload-list.md)

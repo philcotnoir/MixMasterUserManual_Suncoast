@@ -1,0 +1,37 @@
+# Reports
+
+**[Home](../index.md) > Reports**
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+## Overview
+
+The Reports Page consists of automatically-produced reports of various types.
+
+<img src="../images/reports/reports-overview.png" width="1400" alt="Reports Page Overview">
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+## In This Section
+
+### [Automation Performance](automation-performance.md)
+Production metrics summarized on a horizontal time scale.
+
+### [Event Logs](event-logs.md)
+User and operator-generated events for issue identification and follow-up.
+
+### [InnoPick State](innopick-state.md)
+Input, output, and state summaries for the levels of InnoPick.
+
+### [Faults History](faults-history.md)
+All faults reported to MixMaster from InnoPick and other sub-systems.
+
+### [Out of Stock](out-of-stock.md)
+Cases marked Out of Stock during production.
+
+### [Product QC Faults](product-qc-faults.md)
+Cases rejected at QC stations.
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+**Navigation:** [← Floor Positions](../inventory/floor-positions.md) | [Automation Performance →](automation-performance.md)

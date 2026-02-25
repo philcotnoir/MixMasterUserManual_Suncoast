@@ -1,0 +1,67 @@
+# Manual Induction
+
+**[Home](../index.md) > [Terminals](index.md) > Manual Induction**
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+## Overview
+
+The Manual Induction Terminal is used to manually induct cases to InnoPick. This can be used for replenishments (if the product is configured to be inducted manually), or inducting other cases that are not specifically associated with production.
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+## Replenishment Manual Induction
+
+When there is an active replenishment due for the Manual Induction station, the **Replenishment request induction** button on the left-hand side will be highlighted in yellow.
+
+<img src="../images/terminals/manual-induction-replen.png" width="1400" alt="Manual Induction - Replenishment Button Highlighted">
+
+<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+
+### Confirming the Replenishment
+
+When the user clicks on the button above, a pop-up window will appear indicating what the replenishment details are. The operator must confirm the pallet position (or scan it) to make sure the correct pallet is being depalletized:
+
+<img src="../images/terminals/replen-popup.png" width="900" alt="Replenishment Confirmation Pop-up">
+
+<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+
+### Completing the Replenishment
+
+Once the replenishment has been confirmed, the user must complete it by scanning / entering the cases one by one. When a replenishment is active, the screen displays it at the top, shows the product details and # of cases to scan in the middle, and also totals for the number of cases "inducted in this session" at the bottom.
+
+<img src="../images/terminals/replen-active.png" width="1400" alt="Active Replenishment Screen">
+
+The operator then scans a case or enters the UPC code into the dialog box at the top.
+
+<img src="../images/terminals/scan-upc.png" width="1000" alt="Scanning UPC Code">
+
+The interface will indicate that the current replenishment is actively being inducted by highlighting the product in the middle of the screen.
+
+Back on the [Replenishments](../replenishments.md) page, the active replenishment will show the Status as "In Progress" and will show visually how much of the full amount has been inducted.
+
+<img src="../images/terminals/replen-progress.png" width="1400" alt="Replenishment Progress on Replenishments Page">
+
+The operator then must induct the requested number of cases, or press **Short Remaining Cases** to end the replenishment early.
+
+<img src="../images/terminals/short-remaining.png" width="800" alt="Short Remaining Cases Button">
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+## Inducting Cases Without a Replenishment
+
+It is also possible to induct loose cases at the Manual Induction station which are not part of a replenishment. To do this, the user must click on the button **Return Customer cases without pallet HU** while no other replenishment is active. Once in this mode, the operator can scan or manually enter the UPC code for the cases being inducted.
+
+<img src="../images/terminals/return-customer-cases.png" width="1400" alt="Inducting Cases Without Pallet HU">
+
+<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+
+### Confirming the Product
+
+<img src="../images/terminals/confirm-product.png" width="1000" alt="Confirming the Product When Inducting a Case">
+
+Unlike with the replenishment-based induction, in this mode the operator can induct cases of multiple types.
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+**Navigation:** [← Top-Off Terminal](top-off.md) | [Depalletizing Terminal →](depalletizing.md)

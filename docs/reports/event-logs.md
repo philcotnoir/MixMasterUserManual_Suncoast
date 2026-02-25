@@ -1,0 +1,23 @@
+# Event Logs
+
+**[Home](../index.md) > [Reports](index.md) > Event Logs**
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+## Overview
+
+This report is a list of user and operator-generated events. This is a tool provided for issue identification and follow-up. The page lists previously-created events, which can be filtered by status (Pending, In Progress, or Closed), and new events can be created with the **+ Add event log** button.
+
+<img src="../images/reports/event-logs.png" width="1400" alt="Event Logs Report">
+
+<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+
+## Creating a New Event
+
+When creating a new event, the user can input all the relevant information, including time, system zone (level and lane if applicable), symptoms, causes, and comments.
+
+<img src="../images/reports/new-event-form.png" width="600" alt="New Event Log Form">
+
+<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+
+**Navigation:** [← Automation Performance](automation-performance.md) | [InnoPick State →](innopick-state.md)
