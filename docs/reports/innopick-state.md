@@ -6,9 +6,16 @@
 
 ## Overview
 
-The InnoPick state report summarizes the input, output, and various states of the levels of InnoPick across a horizontal timescale. Note that the numbers are mostly minutes.
+The InnoPick state report summarizes the input, output, and various states of the levels of InnoPick across a horizontal timescale. 
+
+- Note that the numbers represented by the columns and under the graph are **minutes**.
+- The curving lines running across the columns are the hourly infeed and outfeed numbers. Like with the [Automation Performance Report](../reports/automation-performance.md), hovering over these points reveals the detailed numbers.
 
 <img src="../images/reports/innopick-state.png" width="1400" alt="InnoPick State Report">
+
+**Note**: Unchecking the **Show levels combined** checkbox reveals level-specific columns for each hours:
+
+<img src="../images/reports/innopick-state2.png" width="1400" alt="InnoPick State Report">
 
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
 

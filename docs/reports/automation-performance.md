@@ -10,6 +10,23 @@ This report is produced for every production date and summarizes various product
 
 <img src="../images/reports/automation-performance.png" width="1400" alt="Automation Performance Report">
 
+- This page can be used to visualize system performance in various ways.
+- Each data point on the graph can be hovered on with a cursor to bring up more details:
+
+<img src="../images/reports/hover1.png" width="250" alt="Automation Performance Report">
+<img src="../images/reports/hover2.png" width="250" alt="Automation Performance Report">
+<img src="../images/reports/hover3.png" width="250" alt="Automation Performance Report">
+
+<hr style="border: none; height: 1px; background-color: #747474; margin: 2em 0;" width="600">
+
+- By changing the **dates**, **times**, and **granularity**, the user can see a whole week at a glance, or drill into the details of a single day:
+
+<img src="../images/reports/automation-performance2.png" width="1400" alt="Automation Performance Report">
+
+<hr style="border: none; height: 1px; background-color: #747474; margin: 2em 0;" width="600">
+
+<img src="../images/reports/automation-performance3.png" width="1400" alt="Automation Performance Report">
+
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
 
 **Navigation:** [← Reports](index.md) | [Event Logs →](event-logs.md)

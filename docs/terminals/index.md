@@ -12,7 +12,9 @@ There are three different types of user terminals: Top-Off, Manual Induction, an
 
 ## Logging onto a Terminal
 
-When the users select one of the terminals, a number pad appears on the right. A valid number is required. Once the number is entered, click on the large **Access terminal** button.
+When the users select one of the terminals, a number pad appears on the right. 
+- A valid number is required. 
+- Once the number is entered, click on the large **Access terminal** button.
 
 <img src="../images/terminals/terminal-login.png" width="850" alt="Terminal Login Screen">
 

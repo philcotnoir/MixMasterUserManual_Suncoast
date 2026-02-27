@@ -8,7 +8,7 @@
 
 The User Settings page contains options for language selection and system of units.
 
-<img src="images/settings/user-settings.png" width="600" alt="User Settings Page">
+<img src="images/settings/user-settings.png" width="500" alt="User Settings Page">
 
 <hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
 

@@ -18,6 +18,13 @@ The Lanes tab lists the same inventory in terms of the specific InnoPick lanes (
 
 <img src="../images/inventory/lanes-tab.png" width="1400" alt="InnoPick Inventory - Lanes View">
 
+- Disabled lanes will show a crossed-out circle in the **Status** column:
+  
+<img src="../images/inventory/lanes2.png" width="1400" alt="InnoPick Inventory - Lanes">
+
+- The inventory can be printed as a table using the **Print** button above.
+- Use the **Search** bar for quickly filtering the complete list to find a product.
+
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
 
 **Navigation:** [← Inventory](index.md) | [Flush →](flush.md)

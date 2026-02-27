@@ -1537,6 +1537,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recommendations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#optimizer-mode" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1872,14 +1883,26 @@
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
 
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
-<p>The Product Configuration Optimizer is a feature that intelligently analyzes the past or upcoming production statistics to make recommendations on which products should be slotted in InnoPick.</p>
-<p><img src="../images/configuration/product-config-optimizer.png" width="1400" alt="Product Configuration Optimizer"></p>
+<p>The Product Configuration Optimizer is a feature that intelligently analyzes the past or upcoming production statistics to make recommendations on which products should be slotted in InnoPick.<br />
+- InnoPick is configured to handle only a certain number of products. Exceeding this limit increases the chance of deadlocks and other problems.<br />
+- The Product Configuration Optimizer analyzes which products represent the most production volume, and whether they are assigned to InnoPick.</p>
+<p><img src="../images/configuration/product-config-optimizer.png" width="900" alt="Product Configuration Optimizer"></p>
 <hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
 
+<h2 id="recommendations">Recommendations<a class="headerlink" href="#recommendations" title="Permanent link">&para;</a></h2>
+<ul>
+<li>After having analyzed the current configuration in light of recent production statistics, it makes recommendations.</li>
+<li>Check the <strong>Show recommendations only</strong> checkbox to see what changes the optimizer is suggesting.</li>
+<li>In the screenshot below, the Optimizer has identified 4 products which have had zero production volume within the last 7 days. It recommends removing these from InnoPick.</li>
+</ul>
+<p><img src="../images/configuration/optimizerrecs.png" width="1050" alt="Product Configuration Optimizer Recommendations"></p>
 <h2 id="optimizer-mode">Optimizer Mode<a class="headerlink" href="#optimizer-mode" title="Permanent link">&para;</a></h2>
 <p>The <strong>Mode</strong> drop-down menu is where the user can select which production statistics to optimize the system on.</p>
 <p><img src="../images/configuration/optimizer-mode.png" width="425" alt="Optimizer Mode Selection"></p>
-<p>The Optimizer results can help users and production supervisors to improve the efficiency of InnoPick, especially during periods when products are being introduced or removed, or when the volume profile changes significantly.</p>
+<hr style="border: none; height: 1px; background-color: #747474; margin: 2em 0;" width="600";>
+
+<p><strong>Note</strong>: The Optimizer results can help users and production supervisors to improve the efficiency of InnoPick, especially during periods when products are being introduced or removed, or when the volume profile changes significantly.</p>
+<p><strong>Tip</strong>: Use the <strong>Pending orders from current delivery date</strong> Mode before the start of production to see if making some changes to the InnoPick-assigned products could help produce the day's orders more efficiently.</p>
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
 
 <p><strong>Navigation:</strong> <a href="packaging-formats.html">← Packaging Formats</a> | <a href="user-manager.html">User Manager →</a></p>
@@ -1912,6 +1935,10 @@
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2026 DRL Systems
+    </div>
   
   
     Made with

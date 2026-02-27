@@ -6,9 +6,14 @@
 
 ## Overview
 
-The **Operation Settings** page contains many key operational parameters and options. They are divided into three categories: **Distribution**, **Order**, and **Reporting**. Each option and parameter has its own description. Certain settings are restricted depending on a user's access level.
+The **Operation Settings** page contains many key operational parameters and options. 
 
-<img src="../images/configuration/operation-settings.png" width="600" alt="Operation Settings Page">
+- They are divided into three categories: **Distribution**, **Order**, and **Orchestrator**. 
+- Each option and parameter has its own description. 
+- Certain settings are restricted depending on a user's access level.
+- These settings are typically managed by system experts.
+
+<img src="../images/configuration/operation-settings.png" width="450" alt="Operation Settings Page">
 
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
 

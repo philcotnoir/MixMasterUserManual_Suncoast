@@ -2,6 +2,7 @@ site_name: MixMaster WECS User Manual
 site_description: Automated Order Preparation Solutions - MixMaster Warehouse Control System Documentation
 site_url: https://philcotnoir.github.io/MixMasterUserManual_Suncoast/
 repo_url: https://github.com/philcotnoir/MixMasterUserManual_Suncoast/
+copyright: "© 2026 DRL Systems"
 
 # This tells MkDocs where your markdown files are
 docs_dir: docs
@@ -80,6 +81,15 @@ nav:
 # Enable search
 plugins:
   - search
+  - to-pdf:
+      author: "Phil Cotnoir - DRL Systems"
+      cover: true
+      cover_title: "MixMaster Operations Manual"
+      cover_subtitle: "Automated Order Preparation Solutions"
+      toc_title: "Table of Contents"
+      toc_level: 3
+      ordered_chapter_level: 2
+      output_path: pdf/MixMasterManual.pdf  
 
 # Markdown extensions for better formatting
 markdown_extensions:

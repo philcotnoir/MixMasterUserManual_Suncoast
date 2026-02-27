@@ -6,9 +6,11 @@
 
 ## Overview
 
-The Out of Stock report lists all of the cases that were marked Out of Stock by MixMaster for the selected time period. These cases were in the Truckloads before launch but during the launch sequence (and perhaps later in the production process, or manually marked as such by the user) these products were not available and so were marked as Out of Stock and the client pallet was produced without them. The report can be downloaded as a .csv file.
+The Out of Stock report lists all of the cases that were marked Out of Stock by MixMaster for the selected time period. 
+- These cases were in the Truckloads before launch but during the launch sequence (and perhaps later in the production process, or manually marked as such by the user) these products were not available and so were marked as Out of Stock and the client pallet was produced without them. 
+- The report can be downloaded as a .csv file.
 
-<img src="../images/reports/oos-report.png" width="850" alt="Out of Stock Report">
+<img src="../images/reports/oos-report.png" width="900" alt="Out of Stock Report">
 
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
 

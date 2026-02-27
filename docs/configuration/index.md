@@ -8,7 +8,7 @@
 
 The Configuration section allows the authorized user to access the following pages.
 
-<img src="../images/configuration/configuration-overview.png" width="1400" alt="Configuration Pages Overview">
+<img src="../images/configuration/configuration-overview.png" width="1150" alt="Configuration Pages Overview">
 
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
 
@@ -24,7 +24,7 @@ Intelligent analysis of production statistics to recommend InnoPick product slot
 Creating and managing user accounts and access levels.
 
 ### [Operation Settings](operation-settings.md)
-Key operational parameters for Distribution, Order, and Reporting categories.
+Key operational parameters for Distribution, Order, and Orchestrator categories.
 
 ### [Event Bus Management](event-bus.md)
 Developer and system expert interface for event bus configuration.

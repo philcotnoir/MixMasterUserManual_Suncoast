@@ -6,13 +6,15 @@
 
 ## Overview
 
-The next block of content on the Home Page is the Sub-System Status indicator. At Suncoast the sub-systems are the five levels of InnoPick. The different statuses are: Faulted, Idle, and Automatic.
+The next block of content on the Home Page is the **Sub-System Status Indicator**. At Suncoast the sub-systems are the five levels of InnoPick. 
 
-<img src="../images/home/subsystem-status1.png" width="250" alt="Sub-System Status Indicators">
+The different statuses are: **Faulted**, **Idle**, and **Automatic**.
 
-<img src="../images/home/subsystem-status2.png" width="250" alt="Sub-System Status Detail">
+<img src="../images/home/subsystem-status1.png" width="300" alt="Sub-System Status Indicators">
 
-<img src="../images/home/subsystem-status3.png" width="200" alt="Sub-System Status Detail">
+<img src="../images/home/subsystem-status2.png" width="300" alt="Sub-System Status Detail">
+
+<img src="../images/home/subsystem-status3.png" width="250" alt="Sub-System Status Detail">
 
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
 

@@ -6,7 +6,7 @@
 
 ## Overview
 
-Proper end-of-day procedures ensure that production is accounted for, the system is left in a known state, and the next shift has the information they need.
+Proper end-of-day procedures ensure that production is accounted for, the system is left in a clean state, and the next shift has the information they need.
 
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
 
@@ -21,8 +21,8 @@ Before ending the shift, check the following:
 
 2. **Replenishment Status**
     - Check the [Replenishments](../replenishments.md) page
-    - Verify that active replenishments have been completed
-    - Note any pending replenishments that will carry over to the next shift
+    - Verify that all replenishments have been completed
+    - Note any pending or active replenishments and look into why they are not completed
 
 3. **Production Summary**
     - Review the [Production Summary](../home-page/production-summary.md) for final counts
@@ -43,7 +43,7 @@ At the end of production, review the following reports for any issues that shoul
 
 ## Log Out
 
-1. Click on your username or logout option
+1. Click on your Username (colored circle with the first letter of your username) in the top right of the screen
 2. Confirm logout
 3. Close the browser
 

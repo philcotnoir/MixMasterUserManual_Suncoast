@@ -2,7 +2,7 @@
 
 **Automated Order Preparation Solutions**
 
-<img src="../docs/images/getting-started/logo1.png" width="250" alt="MixMaster Home Page">
+<img src="images/getting-started/logo1.png" width="250" alt="MixMaster Home Page">
 
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
 
@@ -30,6 +30,9 @@ This manual is organized by the menu sections and sub-sections found in the MixM
 ### [Getting Started](getting-started/index.md)
 How to access and log into MixMaster, including an overview of the interface.
 
+### [Daily Operations](daily-operations/index.md)
+Standard procedures for daily operations, including startup, monitoring, and end-of-day procedures.
+
 ### [Home Page](home-page/index.md)
 The main dashboard showing production summary, sub-system statuses, and JIT-OOS information.
 
@@ -56,5 +59,5 @@ Operator terminals for Top-Off, Manual Induction, and Depalletizing tasks.
 
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
 
-**Navigation:** [← Depalletizing Terminal](../docs/terminals/depalletizing.md) | [Getting Started →](../docs/getting-started/index.md)
+**Navigation:** [← Depalletizing Terminal](terminals/depalletizing.md) | [Getting Started →](getting-started/index.md)
 

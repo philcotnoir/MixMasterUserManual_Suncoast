@@ -8,15 +8,18 @@
 
 The first leftmost section of the Home Page is the Production Summary. Here one can see what the total production volume is, and how much of it has been completed in terms of pallets or cases.
 
-<img src="../images/home/production-summary.png" width="300" alt="Production Summary">
+<img src="../images/home/production-summary.png" width="400" alt="Production Summary">
 
 <hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
 
 ## Reading the Production Summary
 
--   Under the **General** heading, the various sub-systems which together make up the entire distribution system are listed, with the contribution of each indicated. At Suncoast, this includes InnoPick and Manual.
+-   Under the **General** heading, the various sub-systems which together make up the entire distribution system are listed, with the contribution of each indicated. 
+    -   At Suncoast, this includes InnoPick and Manual.
 
--   The **Completed** numbers only include the Truckloads, pallets, and pieces that are finalized according to MixMaster. Anything that is still **In Progress** will not be counted.
+-   The **Completed** numbers only include the Truckloads, pallets, and pieces that are finalized according to MixMaster. 
+
+-   Anything that is still **In Progress** will not be counted.
 
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
 

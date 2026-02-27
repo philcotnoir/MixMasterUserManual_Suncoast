@@ -76,7 +76,7 @@ Additional Controls are available when navigating the Truckloads list. These com
 
 ### Safely Reset and Back to Available
 
-- This can be executed only for truckloads that have been launched (**In Queue** or **In Progres**) 
+- This can be executed only for truckloads that have been launched (**In Queue** or **In Progress**) 
 - It will reset all the pallets for which no cases have already been scheduled and set the truckload back to **Available**.
 
 -   If some of the pallets have already started being scheduled for output, then those pallets will remain **In Progress**, resulting in a partially-reset Truckload.

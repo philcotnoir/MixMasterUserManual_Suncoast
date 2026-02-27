@@ -6,7 +6,11 @@
 
 ## Overview
 
-This report is a list of user and operator-generated events. This is a tool provided for issue identification and follow-up. The page lists previously-created events, which can be filtered by status (Pending, In Progress, or Closed), and new events can be created with the **+ Add event log** button.
+This report is a list of user and operator-generated events. 
+
+- This is a tool provided for issue identification and follow-up. 
+- The page lists previously-created events, which can be filtered by status (Pending, In Progress, or Closed).
+- New events can be created with the **+ Add event log** button.
 
 <img src="../images/reports/event-logs.png" width="1400" alt="Event Logs Report">
 
@@ -17,6 +21,10 @@ This report is a list of user and operator-generated events. This is a tool prov
 When creating a new event, the user can input all the relevant information, including time, system zone (level and lane if applicable), symptoms, causes, and comments.
 
 <img src="../images/reports/new-event-form.png" width="600" alt="New Event Log Form">
+
+<hr style="border: none; height: 1px; background-color: #747474; margin: 2em 0;" width="600">
+
+**Note**: These Events do not directly affect the system. They are simply a way to keep track of issues for better communication between operators, mechanics, and supervisors.
 
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
 

@@ -8,9 +8,11 @@
 
 On the right side of the Home Page, there is information related to Just-In-Time-Out-Of-Stock (JIT OOS) processes. 
 
-A JIT OOS occurs when a group of pallets has already started being produced and one of the SKUs is found to be Out of Stock. The system then pauses all production while it recalculates the pallets affected by the missing SKU in order to minimize Top Off.
+A JIT OOS occurs when a group of pallets has already started being produced and one of the SKUs is found to be Out of Stock. 
+The system then pauses all production while it recalculates the pallets affected by the missing SKU in order to minimize Top Off.
+- This is different from a standard Out-Of-Stock, which is detected before or at the moment of launching the Truckload, when the Warehouse Management System tells MixMaster that no pallets are available for a SKU for which a replenishment is needed.
 
-<img src="../images/home/jit-oos.png" width="600" alt="JIT-OOS Visuals">
+<img src="../images/home/jit-oos.png" width="700" alt="JIT-OOS Visuals">
 
 <hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
 
@@ -18,16 +20,17 @@ A JIT OOS occurs when a group of pallets has already started being produced and 
 
 The Home Page, along with all the other pages, displays priority alerts in the right corner of the top banner.
 
-<img src="../images/home/priority-alerts-banner.png" width="600" alt="Priority Alerts Banner">
+<img src="../images/home/priority-alerts-banner.png" width="700" alt="Priority Alerts Banner">
 
 - **This can be clicked on and expanded:**
 
-<img src="../images/home/priority-alerts-expanded.png" width="600" alt="Priority Alerts Expanded">
+<img src="../images/home/priority-alerts-expanded.png" width="700" alt="Priority Alerts Expanded">
 
-**The operator has two buttons he can press:**
+**The operator has two buttons they can press:**
 
-- View the **[History](../reports/faults-history.md)** of Alerts.
+- View the **[History](../reports/faults-history.md)** of Alerts
 - **Clear** All the Alerts
+  - Cleared Alerts can still be viewed in the Fault History
 
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
 

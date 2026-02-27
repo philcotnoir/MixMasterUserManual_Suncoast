@@ -23,7 +23,7 @@ When MixMaster receives Truckload information from the client's system, it displ
 - **InnoPick**: # of cases from InnoPick for this Group / Truckload
 - **TopOff**: # of cases going to TopOff for this Group / Truckload
 - **OOS**: # of cases that are Out of Stock for this Group / Truckload
-- **Status**:  Pending, In Queue, Progress Bar (showing level of copmletion).
+- **Status**:  Pending, In Queue, Progress Bar (showing level of completion).
 
 
 <hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">

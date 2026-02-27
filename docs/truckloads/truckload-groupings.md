@@ -28,17 +28,19 @@ Within a group of truckloads, MixMaster may rearrange the pallet order to balanc
 
 ## Launching and Resetting Groups
 
-Truckloads are launched using the Launching and Resetting interface that appears on the right-hand side of the Truckloads page when a group is selected. MixMaster considers the launched truckloads that haven't actually started being built as **In Queue**. While they are in this state they can easily be reset using the **Safely Reset** button, which reverts them from **In Queue** back to **Available**.
+- Truckloads are launched using the Launching and Resetting interface that appears on the right-hand side of the Truckloads page when a group is selected. 
+- MixMaster considers the launched truckloads that haven't actually started being built as **In Queue**. 
+  - While they are in this state they can easily be reset using the **Safely Reset** button, which reverts them from **In Queue** back to **Available**.
 
-<img src="../images/truckloads/launch-reset.png" width="900" alt="Truckload Group Launch or Reset Interface">
+<img src="../images/truckloads/launch-reset.png" width="550" alt="Truckload Group Launch or Reset Interface">
 
 <hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
 
 ## Managing Groups
 
-It's also possible to Edit the group's name, Delete the grouping (without deleting the Truckloads), or Delete the Grouping AND the Truckloads.
+It's also possible to **Edit** the group's name, **Delete** the grouping (without deleting the Truckloads), or **Delete** the Grouping AND the Truckloads.
 
-<img src="../images/truckloads/delete-groups.png" width="900" alt="Deleting Groups">
+<img src="../images/truckloads/delete-groups.png" width="800" alt="Deleting Groups">
 
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
 

@@ -7,7 +7,7 @@
 ## Overview
 
 The Packaging Formats page displays all the configured products with their properties. This page can be used to modify these properties. 
-For detailed explanations of each field / column, see the next section on the Product Configuration Sidebar.
+- For detailed explanations of each field / column, see the next section on the Product Configuration Sidebar.
 
 <img src="../images/configuration/packaging-formats.png" width="1400" alt="Packaging Formats Page">
 
@@ -35,7 +35,7 @@ When any Product is clicked, the configuration Sidebar opens on the right hand s
 - **Product Family**: This field, which is used only when the associated checkbox is enabled in the [Extra Details](#extra-details) section, is used by the Palletizer for better handling of the cases in the Row-Builder.
 - **Retired**: Whether the product has been retired from production
 - **Do not sub.**: Whether the product should not be substituted with another product that shares its UPC
-- **Need superior wrap program**: Whether the product requires a special wrap program (double wrapping). If any case with this option enabled are found on a pallet, the entire pallet will be wrapped with the special wrap program.
+- **Need superior wrap program**: Whether the product requires a special wrap program (double wrapping). If any cases with this option enabled are found on a pallet, the entire pallet will be wrapped with the special wrap program.
 
 #### InnoPick Configurations
 

@@ -2021,8 +2021,8 @@
 <li>
 <p><strong>System Overview metrics</strong> (top of page)</p>
 <ul>
-<li><strong>L1–L5 replenishment counts</strong>: These numbers should be steadily decreasing as replenishments are completed. If they are not decreasing, investigate.</li>
-<li><strong>Inventory Snapshot</strong>: Monitor case counts per level. A level dropping to very low inventory may need attention.</li>
+<li><strong>L1–L5 replenishment counts</strong>: All levels should have replenishment tasks active, until production nears the end of the launched truckloads.</li>
+<li><strong>Inventory Snapshot</strong>: Monitor case counts per level. A level dropping to very low inventory may need attention. Some variation is normal, but great disparities point towards either operational issues like late replenishments, or poor balancing between the various levels.</li>
 <li><strong>Available Lanes / Disabled Lanes</strong>: A high number of disabled lanes reduces system capacity.</li>
 </ul>
 </li>
@@ -2049,11 +2049,11 @@
 <p><strong>Every 15–30 Minutes:</strong></p>
 <ul>
 <li>Check the Home Page for sub-system statuses and priority alerts</li>
-<li>Verify production progress is advancing (Production Summary numbers increasing)</li>
+<li>Verify production progress is advancing</li>
 </ul>
 <p><strong>Every 1–2 Hours:</strong></p>
 <ul>
-<li>Review replenishment status — are replenishments completing at a healthy rate?</li>
+<li>Review replenishment status — are replenishments completing at a healthy rate? Are there any with unusually long delays?</li>
 <li>Check the System Overview on the Truckloads page for inventory levels and lane availability</li>
 <li>Verify truckloads are progressing as expected</li>
 </ul>
@@ -2061,7 +2061,6 @@
 <ul>
 <li>Watch for JIT-OOS events, which indicate out-of-stock products are disrupting production</li>
 <li>Coordinate with Depal and Manual Induction operators to ensure replenishments are being processed</li>
-<li>Be aware of downstream palletizer status — if downstream backs up, it can affect MixMaster flow</li>
 </ul>
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
 
@@ -2073,7 +2072,7 @@
 <li>Replenishments are flowing through their lifecycle without stalling</li>
 <li>Truckloads are advancing from <strong>In Queue</strong> through <strong>In Progress</strong> to <strong>Completed</strong></li>
 <li>No priority alerts in the top banner</li>
-<li>Replenishment queue counts (L1–L5) are decreasing as production progresses</li>
+<li>Replenishment queue counts (L1–L5) are decreasing as production nears its end.</li>
 </ul>
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
 
@@ -2082,15 +2081,14 @@
 <ul>
 <li>Any sub-system showing <strong>Faulted</strong> status</li>
 <li>Priority alerts appearing in the top banner</li>
-<li>A JIT-OOS event firing (production pauses while the system recalculates)</li>
-<li>Truckloads stuck in <strong>In Progress</strong> with no cases completing</li>
+<li>A JIT-OOS event being triggered (production pauses while the system recalculates)</li>
+<li>Truckloads stuck in <strong>In Progress</strong> with no cases completing, or stuck while calculating during launch.</li>
 </ul>
 <h3 id="warning-signs-to-monitor-closely">Warning Signs to Monitor Closely<a class="headerlink" href="#warning-signs-to-monitor-closely" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Replenishment counts (L1–L5) not decreasing — may indicate Depal or Manual Induction bottleneck</li>
+<li>Late replenishments (excessive delays in Replen page)</li>
 <li>Inventory levels on one or more InnoPick levels dropping significantly lower than others</li>
 <li>Multiple disabled lanes on a single level</li>
-<li>Truckloads taking longer than expected to complete</li>
 <li>Repeated OOS cases appearing for the same product</li>
 </ul>
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
@@ -2106,7 +2104,7 @@
 </ul>
 </li>
 <li>
-<p><strong>Check the priority alerts</strong> in the top banner for details</p>
+<p><strong>Check the priority alerts</strong> in the top banner for details. If they have been cleared, then...</p>
 </li>
 <li>
 <p><strong>Check the <a href="../reports/faults-history.html">Faults History</a></strong> report for recent fault information from MixMaster and sub-systems</p>
@@ -2118,11 +2116,8 @@
 <li>For truckload issues: Use the <a href="../truckloads/truckload-controls.html">Truckload Controls</a> to manage affected pallets (Hold, Reset, etc.)</li>
 <li>For replenishment bottlenecks: Coordinate with Depal and Manual Induction operators</li>
 <li>For JIT-OOS events: Wait for the system to finish recalculating, then verify production resumes</li>
-<li>For unknown issues: Contact supervisor or DRL remote support</li>
+<li>For unknown issues: Contact supervisor or Remote Support</li>
 </ul>
-</li>
-<li>
-<p><strong>Log the event</strong> using the <a href="../reports/event-logs.html">Event Logs</a> report for follow-up and historical tracking</p>
 </li>
 </ol>
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
@@ -2157,6 +2152,10 @@
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2026 DRL Systems
+    </div>
   
   
     Made with
