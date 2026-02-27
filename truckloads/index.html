@@ -1941,15 +1941,23 @@
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
 <p>The Truckloads Page gathers all the information related to the production Truckloads. They are divided by status:</p>
 <ul>
-<li><strong>Available</strong></li>
+<li><strong>Available</strong><ul>
 <li>Truckload is not actively in Production. It can be launched</li>
-<li><strong>In Queue</strong></li>
+</ul>
+</li>
+<li><strong>In Queue</strong><ul>
 <li>Truckload has been launched, but because there are enough truckloads in front of it in the production queue, the system has not yet gotten to processing this one</li>
-<li><strong>In Progress</strong></li>
+</ul>
+</li>
+<li><strong>In Progress</strong><ul>
 <li>Truckload is actively in production. Replenishments have been called, and InnoPick is scheduling the output cases it has available</li>
 <li>The progress bar indicates how much of this truckload has been palletized</li>
-<li><strong>Completed</strong></li>
+</ul>
+</li>
+<li><strong>Completed</strong><ul>
 <li>Truckload pallets are all completed and out of the palletizers</li>
+</ul>
+</li>
 </ul>
 <p><img src="../images/truckloads/truckloads-overview1.png" width="1400" alt="Truckloads Page Overview"></p>
 <hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
