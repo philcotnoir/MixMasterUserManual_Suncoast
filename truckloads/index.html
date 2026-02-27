@@ -1939,7 +1939,18 @@
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
 
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
-<p>The Truckloads Page gathers all the information related to the production Truckloads. They are divided by status: Available, In Progress, and Completed.</p>
+<p>The Truckloads Page gathers all the information related to the production Truckloads. They are divided by status:</p>
+<ul>
+<li><strong>Available</strong></li>
+<li>Truckload is not actively in Productino. It can be launched</li>
+<li><strong>In Queue</strong></li>
+<li>Truckload has been launched, but because there are enough truckloads in front of it in the production queue, the system has not yet gotten to processing this one</li>
+<li><strong>In Progress</strong></li>
+<li>Truckload is actively in production. Replenishments have been called, and InnoPick is scheduling the output cases it has available</li>
+<li>The progress bar indicates how much of this truckload has been palletized</li>
+<li><strong>Completed</strong></li>
+<li>Truckload pallets are all completed and out of the palletizers</li>
+</ul>
 <p><img src="../images/truckloads/truckloads-overview1.png" width="1400" alt="Truckloads Page Overview"></p>
 <hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
 
@@ -1949,8 +1960,9 @@
 <p>Each Truckload is summarized in one horizontal line, and the status of each Truckload is indicated by the color of that line. </p>
 <ul>
 <li>If the Truckload is <strong>Available</strong>, it is White</li>
+<li>If a Truckload is <strong>In Queue</strong>, it is yellow</li>
 <li>If <strong>In Progress</strong>, it is Green</li>
-<li>If <strong>Completed</strong>, it is Grey.</li>
+<li>If <strong>Completed</strong>, it is Grey</li>
 </ul>
 <hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
 
@@ -1959,7 +1971,12 @@
 <p><img src="../images/truckloads/system-overview.png" width="450" alt="System Overview Metrics"></p>
 <ul>
 <li>
-<p>The <strong>L1</strong> to <strong>L5</strong> numbers on the left indicate the number of active Replenishments due for each Level of InnoPick. These replenishments are queued per level. As production first begins, pallets are put into progress and replenishment requests are processed and queued. As the number of replenishments decreases (as seen in the numbers above), more pallets are automatically set into progress and more replenishments are requested.</p>
+<p>The <strong>L1</strong> to <strong>L5</strong> numbers on the left indicate the number of active Replenishments due for each Level of InnoPick. </p>
+<ul>
+<li>These replenishments are queued per level. </li>
+<li>As production first begins, pallets are put into progress and replenishment requests are processed and queued. </li>
+<li>As the number of replenishments decreases (as seen in the numbers above), more pallets are automatically set into progress and more replenishments are requested.</li>
+</ul>
 </li>
 <li>
 <p><strong>Inventory Snapshot</strong>: These numbers indicate the number of cases on each level of InnoPick, as well as the <strong>Total Cs. InnoPick</strong> number.</p>
@@ -1967,8 +1984,12 @@
 </ul>
 <p><img src="../images/truckloads/lanes-summary.png" width="350" alt="InnoPick Lanes Summary"></p>
 <ul>
-<li><strong>InnoPick Lanes Summary</strong>: The user can also see at a glance how many lanes are empty (<strong>Available Lanes</strong>) and how many lanes are disabled (<strong>Disabled Lanes</strong>).</li>
-<li>Click on the numbers to get a level-by-level breakdown of the Available and Disabled lanes.   </li>
+<li><strong>InnoPick Lanes Summary</strong>: <ul>
+<li>The user can also see at a glance how many lanes are empty (<strong>Available Lanes</strong>) </li>
+<li>How many lanes are disabled (<strong>Disabled Lanes</strong>).</li>
+<li>Click on the numbers to get a level-by-level breakdown of the Available and Disabled lanes:</li>
+</ul>
+</li>
 </ul>
 <p><img src="../images/truckloads/system-overview2.png" width="200" alt="InnoPick Lanes Summary"></p>
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
@@ -2012,6 +2033,10 @@
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2026 DRL Systems
+    </div>
   
   
     Made with
