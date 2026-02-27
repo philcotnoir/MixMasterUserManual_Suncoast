@@ -61,8 +61,8 @@ The operator then depalletizes layers and presses the blue button, **Confirm lay
 - **Confirm the replenishment pallet arrival**: This action confirms the arrival of the directed replenishment pallet to the specified location.
 - **Confirm pallet take away**: This action confirms to MixMaster that the pallet which was in this depal location has physically been removed.
 - **Update case quantity on pallet**: This action allows an operator to update MixMaster about how many cases are actually on a pallet currently at a depal location.
-  - **Note**: Make sure operators update the pallet quantity using this action if case breakage occurs or damaged layers are removed. 
-  - The consequences of having incorrect case counts can be serious, causing significant delays.
+    - **Note**: Make sure operators update the pallet quantity using this action if case breakage occurs or damaged layers are removed. 
+    - The consequences of having incorrect case counts can be serious, causing significant delays.
 - **Logs**: This button brings up system logs for use by system experts.
 
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">

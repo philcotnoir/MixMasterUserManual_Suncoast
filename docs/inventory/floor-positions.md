@@ -17,7 +17,7 @@ The Floor Positions page provides an overview of the depalletizing floor positio
 <hr style="border: none; height: 1px; background-color: #747474; margin: 2em 0;" width="600">
 
 - The Recovery Actions accessible on this page are the same as those available on the **[Depalletizer Terminal](../terminals/depalletizing.md#depal-terminal-recovery-actions)**. 
-  - See that page for details.
+    - See that page for details.
 
 <hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
 

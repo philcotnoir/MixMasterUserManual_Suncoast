@@ -17,8 +17,8 @@ The Product Configuration Optimizer is a feature that intelligently analyzes the
 ## Recommendations
 
 - After having analyzed the current configuration in light of recent production statistics, it makes recommendations.
-  - Check the **Show recommendations only** checkbox to see what changes the optimizer is suggesting.
-  - In the screenshot below, the Optimizer has identified 4 products which have had zero production volume within the last 7 days. It recommends removing these from InnoPick.
+    - Check the **Show recommendations only** checkbox to see what changes the optimizer is suggesting.
+    - In the screenshot below, the Optimizer has identified 4 products which have had zero production volume within the last 7 days. It recommends removing these from InnoPick.
 
 <img src="../images/configuration/optimizerrecs.png" width="1050" alt="Product Configuration Optimizer Recommendations">
 

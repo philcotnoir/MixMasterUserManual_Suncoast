@@ -15,8 +15,9 @@ The Packaging Formats page displays all the configured products with their prope
 
 When any Product is clicked, the configuration Sidebar opens on the right hand side of the screen and an operator with sufficient access can make changes to the product configuration. 
 
-<img src="../images/configuration/product-popup.png" width="500" alt="Packaging Formats Page">
+<img src="../images/configuration/product-popup.png" width="450" alt="Packaging Formats Page">
 
+<img src="../images/configuration/product-popup2.png" width="450" alt="Packaging Formats Page">
 
 ### Information visible on this page:
 
@@ -67,7 +68,9 @@ When any Product is clicked, the configuration Sidebar opens on the right hand s
 
 ### Editing Packaging Format Properties
 
-<img src="../images/configuration/edit-packaging-format.png" width="550" alt="Editing Packaging Format Properties">
+<img src="../images/configuration/edit-packaging-format.png" width="450" alt="Editing Packaging Format Properties">
+<img src="../images/configuration/edit-packaging-format2.png" width="450" alt="Editing Packaging Format Properties">
+
 
 - **Note**: In order to edit packaging configurations, the user simply has to click **Edit** to make the various parameter fields editable. The user can also check the **Lock** box to prevent MixMaster from overwriting the user-set parameters with other values.
 

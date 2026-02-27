@@ -30,7 +30,7 @@ Within a group of truckloads, MixMaster may rearrange the pallet order to balanc
 
 - Truckloads are launched using the Launching and Resetting interface that appears on the right-hand side of the Truckloads page when a group is selected. 
 - MixMaster considers the launched truckloads that haven't actually started being built as **In Queue**. 
-  - While they are in this state they can easily be reset using the **Safely Reset** button, which reverts them from **In Queue** back to **Available**.
+    - While they are in this state they can easily be reset using the **Safely Reset** button, which reverts them from **In Queue** back to **Available**.
 
 <img src="../images/truckloads/launch-reset.png" width="550" alt="Truckload Group Launch or Reset Interface">
 

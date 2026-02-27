@@ -9,14 +9,14 @@
 The Truckloads Page gathers all the information related to the production Truckloads. They are divided by status:
 
 - **Available**
-  - Truckload is not actively in Production. It can be launched
+    - Truckload is not actively in Production. It can be launched
 - **In Queue**
-  - Truckload has been launched, but because there are enough truckloads in front of it in the production queue, the system has not yet gotten to processing this one
+    - Truckload has been launched, but because there are enough truckloads in front of it in the production queue, the system has not yet gotten to processing this one
 - **In Progress**
-  - Truckload is actively in production. Replenishments have been called, and InnoPick is scheduling the output cases it has available
-  - The progress bar indicates how much of this truckload has been palletized
+    - Truckload is actively in production. Replenishments have been called, and InnoPick is scheduling the output cases it has available
+    - The progress bar indicates how much of this truckload has been palletized
 - **Completed**
-  - Truckload pallets are all completed and out of the palletizers
+    - Truckload pallets are all completed and out of the palletizers
 
 <img src="../images/truckloads/truckloads-overview1.png" width="1400" alt="Truckloads Page Overview">
 

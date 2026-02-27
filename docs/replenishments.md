@@ -18,9 +18,9 @@ The Replenishments page lists all the replenishments that the system has calcula
 - **Name**: The product description
 - **Level**: The InnoPick level (or level associated with some other subsystem if applicable) that the replen is assigned to.
 - **Timeline**: This graphic shows the progression of the replenishment at a glance. 
-  - It can be hovered over to reveal specific timestamps for each stage.
-  - Click View full timeline to see more details.
-  - The colours indicate whether the elapsed time for each step is within the typical range (Green, Yellow, Red).
+    - It can be hovered over to reveal specific timestamps for each stage.
+    - Click View full timeline to see more details.
+    - The colours indicate whether the elapsed time for each step is within the typical range (Green, Yellow, Red).
 
 <hr style="border: none; height: 2px; background-color: #a8a8a8; width: 500px; margin: 2em auto;">
 
@@ -42,10 +42,10 @@ The Replenishments page lists all the replenishments that the system has calcula
 - **HU**: Handling Unit of the pallet.
 
 - **InnoPick Replen. ID**: Unique ID assigned to this replenishment by InnoPick. 
-  - *This ID can be used to find the replenishment details in InnoPick Manager.*
+    - *This ID can be used to find the replenishment details in InnoPick Manager.*
 
 - At the far right of each replenishment row is an icon that displays the system logs for this replenishment. 
-  - This is for system experts; normal operators do not need to know how to interpret logs.
+    - This is for system experts; normal operators do not need to know how to interpret logs.
 
 <hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
 
@@ -62,7 +62,7 @@ Here are what each category means:
 - **Requested to be Freed**: Waiting on an operator to bring a pallet from floor location to PPB
 - **Awaiting In Flight**: A directed replen (from warehouse) has been called for and has not been delivered yet
 - **Available on the Floor**: The pallets corresponding to at least one replen task that the operator could in theory do.
-  - Sometimes a single pallet can serve multiple replen tasks for one or more levels
+    - Sometimes a single pallet can serve multiple replen tasks for one or more levels
 
 There is also the **Preview Next Task Options** button on the top right. 
 
@@ -101,7 +101,7 @@ The progress bars indicate how many cases are:
 ## Viewing Product Details
 
 - Users can also click the SKU Number and that will open up a similar pop-up with the product details.
-  - See the section on the **[Product Details Sidebar](configuration/packaging-formats.md#product-configuration-sidebar)**.
+    - See the section on the **[Product Details Sidebar](configuration/packaging-formats.md#product-configuration-sidebar)**.
 
 <img src="images/replenishments/product-details.png" width="1400" alt="Product Details from Replenishments Page">
 
