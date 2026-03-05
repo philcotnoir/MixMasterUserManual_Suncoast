@@ -34,6 +34,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build with Rspress
+        env:
+          # This variable is specific to this step
+          RS_PRESS_BASE: "/MixMasterUserManual_Suncoast/"
         run: |
           npm run build
       - name: Upload artifact
