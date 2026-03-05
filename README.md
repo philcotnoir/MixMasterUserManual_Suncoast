@@ -2,7 +2,7 @@
 
 This documentation site is generated from MDX files using [Rspress](https://rspress.rs/)
 
-## Pre-requisits
+## Pre-requisites
 
 Install [Nodejs](https://nodejs.org)
 
