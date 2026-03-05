@@ -2,14 +2,14 @@
 
 **[Home](index.md) > Replenishments**
 
-<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+<hr style={{ border: "none", height: "3px", backgroundColor: "#747474", margin: "2em 0" }} />
 
 ## Overview
 
 The Replenishments page lists all the replenishments that the system has calculated are necessary to complete the production.
 - The page displays **Active** replenishments by default, but the user can select to display **Completed** ones also.
 
-<img src="./images/replenishments/replenishments-page.png" width="1400" alt="Replenishments Page">
+<img src="./images/replenishments/replenishments-page.png" width="1400" alt="Replenishments Page" />
 
 ### Column Details
 
@@ -22,16 +22,16 @@ The Replenishments page lists all the replenishments that the system has calcula
     - Click View full timeline to see more details.
     - The colours indicate whether the elapsed time for each step is within the typical range (Green, Yellow, Red).
 
-<hr style="border: none; height: 2px; background-color: #a8a8a8; width: 500px; margin: 2em auto;">
+<hr style={{ border: "none", height: "2px", backgroundColor: "#a8a8a8", width: "500px", margin: "2em auto" }} />
 
 
-<img src="./images/replenishments/timelinehover.png" width="600" alt="Hover on Timeline">
+<img src="./images/replenishments/timelinehover.png" width="600" alt="Hover on Timeline" />
 
-<hr style="border: none; height: 2px; background-color: #a8a8a8; width: 500px; margin: 2em auto;">
+<hr style={{ border: "none", height: "2px", backgroundColor: "#a8a8a8", width: "500px", margin: "2em auto" }} />
 
-<img src="./images/replenishments/timelinefull.png" width="400" alt="Full Timeline">
+<img src="./images/replenishments/timelinefull.png" width="400" alt="Full Timeline" />
 
-<hr style="border: none; height: 2px; background-color: #a8a8a8; width: 500px; margin: 2em auto;">
+<hr style={{ border: "none", height: "2px", backgroundColor: "#a8a8a8", width: "500px", margin: "2em auto" }} />
 
 - **Cases Depal**: How many cases have been depalletized compared to the total amount for that replenishment.
 
@@ -47,13 +47,13 @@ The Replenishments page lists all the replenishments that the system has calcula
 - At the far right of each replenishment row is an icon that displays the system logs for this replenishment.
     - This is for system experts; normal operators do not need to know how to interpret logs.
 
-<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+<hr style={{ border: "none", height: "2px", backgroundColor: "#a8a8a8", margin: "2em 0" }} />
 
 ## Depalletizer Pending Tasks Summary
 
 - There is a small "glasses" icon at the top of the Replenishments page. This can be pressed to open up the Depalletizer Pending Tasks Summary page:
 
-<img src="./images/replenishments/glasses.png" width="800" alt="Hover on Timeline">
+<img src="./images/replenishments/glasses.png" width="800" alt="Hover on Timeline" />
 
 - Each Depalletizer's task details can be viewed by pressing the associated **View** button.
 
@@ -69,13 +69,13 @@ There is also the **Preview Next Task Options** button on the top right.
 - This button displays a detailed snapshot of the state of the depalletizing situation for a particular line.
 - The information can be copied using the button at the top of the popup and can then be shared with the support team for further investigation following an unusual observation or behavior from that depalletizing line.
 
-<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+<hr style={{ border: "none", height: "2px", backgroundColor: "#a8a8a8", margin: "2em 0" }} />
 
 ## Inbound Accumulation
 
 In the top right section of the Replenishments page, the current **Inbound Accumulation** levels are displayed.
 
-<img src="./images/replenishments/inbound-accum.png" width="500" alt="Replenishments Page">
+<img src="./images/replenishments/inbound-accum.png" width="500" alt="Replenishments Page" />
 
 The progress bars indicate how many cases are:
 
@@ -86,7 +86,7 @@ The progress bars indicate how many cases are:
 - The levels have different amounts of possible accumulation, and that the amount of total cases can exceed the physical accumulation size.
 - This number decreases when cases are inducted into InnoPick or when an In Progress replenishment is shorted.
 
-<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+<hr style={{ border: "none", height: "2px", backgroundColor: "#a8a8a8", margin: "2em 0" }} />
 
 ## Viewing Replenishment Details
 
@@ -94,20 +94,20 @@ The progress bars indicate how many cases are:
 - Replenishments are only created when the system knows it will need a certain product in order to complete a client pallet. The case sequence for the pallet in question is displayed as a pop-up on the right-hand side of the screen without navigating the user away from the replenishments page.
 - For more details on the Pallet Case Sequence interface, see the **[Viewing the Case Sequence Section](truckloads/truckload-list.md#viewing-the-case-sequence)**.
 
-<img src="./images/replenishments/replen-case-sequence.png" width="1400" alt="Replenishment Case Sequence">
+<img src="./images/replenishments/replen-case-sequence.png" width="1400" alt="Replenishment Case Sequence" />
 
-<hr style="border: none; height: 2px; background-color: #a8a8a8; margin: 2em 0;">
+<hr style={{ border: "none", height: "2px", backgroundColor: "#a8a8a8", margin: "2em 0" }} />
 
 ## Viewing Product Details
 
 - Users can also click the SKU Number and that will open up a similar pop-up with the product details.
     - See the section on the **[Product Details Sidebar](configuration/packaging-formats.md#product-configuration-sidebar)**.
 
-<img src="./images/replenishments/product-details.png" width="1400" alt="Product Details from Replenishments Page">
+<img src="./images/replenishments/product-details.png" width="1400" alt="Product Details from Replenishments Page" />
 
 ## Replenishment Page Recovery Actions
 
-<img src="./images/replenishments/recoveryactions.png" width="500" alt="Recovery Actions">
+<img src="./images/replenishments/recoveryactions.png" width="500" alt="Recovery Actions" />
 
 At the right-hand side of the Replenishments page, there is a circular icon that can be pressed to bring up the available Recovery Actions.
 
@@ -118,9 +118,9 @@ Here is what each action does:
 - **Notify for last layer placed**: This action notifies MixMaster (and afterwards the conveyor system) that the previous layer that was placed was in fact the last layer that will be placed. MixMaster then recalculates whether a new replenishment for this product is needed, and it updates the conveyor system.
 - **Logs**: This brings up any MixMaster logs associated with the selected replenishment. These are used for debugging by system experts, but advanced users can also use the information in them.
 
-<img src="./images/replenishments/logs.png" width="1000" alt="Recovery Actions">
+<img src="./images/replenishments/logs.png" width="1000" alt="Recovery Actions" />
 
 
-<hr style="border: none; height: 3px; background-color: #747474; margin: 2em 0;">
+<hr style={{ border: "none", height: "3px", backgroundColor: "#747474", margin: "2em 0" }} />
 
 **Navigation:** [← Truckload Groupings](truckloads/truckload-groupings.md) | [Inventory →](inventory/index.md)
