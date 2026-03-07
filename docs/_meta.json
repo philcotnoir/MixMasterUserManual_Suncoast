@@ -1,0 +1,57 @@
+[
+  {
+    "type": "file",
+    "name": "index",
+    "label": "Home"
+  },
+  {
+    "type": "dir",
+    "name": "getting-started",
+    "label": "Getting Started"
+  },
+  {
+    "type": "dir",
+    "name": "daily-operations",
+    "label": "Daily Operations"
+  },
+  {
+    "type": "dir",
+    "name": "home-page",
+    "label": "Home Page"
+  },
+  {
+    "type": "dir",
+    "name": "truckloads",
+    "label": "Truckloads"
+  },
+  {
+    "type": "file",
+    "name": "replenishments",
+    "label": "Replenishments"
+  },
+  {
+    "type": "dir",
+    "name": "inventory",
+    "label": "Inventory"
+  },
+  {
+    "type": "dir",
+    "name": "reports",
+    "label": "Reports"
+  },
+  {
+    "type": "dir",
+    "name": "configuration",
+    "label": "Configuration"
+  },
+  {
+    "type": "file",
+    "name": "settings",
+    "label": "Settings"
+  },
+  {
+    "type": "dir",
+    "name": "terminals",
+    "label": "Terminals"
+  }
+]

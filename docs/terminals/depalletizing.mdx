@@ -1,0 +1,59 @@
+# Depalletizing Terminal
+
+**[Home](../index.md) > [Terminals](index.md) > Depalletizing Terminal**
+
+## Overview
+
+When an operator is logged onto a Depalletizer Terminal, the page will display:
+
+- The various pallets (with their product details) that are currently in the Depal Floor Positions
+- If there are Depal Tasks that the operator needs to complete, the **Start Next** button will be blue.
+
+<img src="../images/terminals/depal-terminal1.png" width="1100" alt="Depalletizing Terminal" />
+
+---
+
+## Starting a Task
+
+When a task is begun by the operator, a pop-up window appears in the center of the page and the operator must either scan the pallet position or enter it in manually, to confirm that the correct pallet is in view.
+
+<img src="../images/terminals/depal-task-popup1.png" width="700" alt="Depalletizing Task Pop-up" />
+
+- After the pallet position is confirmed, the details of the depalletizing task appear on the right-hand side of the terminal screen.
+
+<img src="../images/terminals/depal-pallet-display1.png" width="1400" alt="Depalletizing Task Details" />
+
+## Confirming Layers
+
+The operator then depalletizes layers and presses the blue button, **Confirm layer placed**, after each layer deposit.
+
+- This button will make another pop-up appear.
+- The operator must press the **OK** button for the deposited layer of product to move downstream.
+
+<img src="../images/terminals/confirm-layer1.png" width="700" alt="Confirm Layer Placed" />
+
+## Shorting Remaining Cases
+
+"Shorting" a replenishment means reducing the number of cases associated with it.
+
+- This is necessary if the depalletizing operator finds damaged cases on the pallet and it is not possible to deliver the full number of layers.
+- When this occurs, the operator can press the **Short Remaining Cases** button on the terminal.
+- A pop-up confirmation will appear:
+
+<img src="../images/terminals/short1.png" width="650" alt="Short Remaining Cases Confirmation" />
+
+- When a replen is shorted, MixMaster updates the conveyor system so that it knows that the last layer(s) will not be delivered, and that the replenishment in question is now complete.
+
+## Depal Terminal Recovery Actions
+
+<img src="../images/terminals/depal-recovery.png" width="600" alt="Depal Terminal Recovery Actions" />
+
+- **Request pallet return to inventory**: This will create a transport request to the Warehouse Management System (Encompass) to return the selected pallet to the inventory.
+- **Cancel replenishment request**: This action will cancel an active "directed replenishment" request. This refers to an active request to the WMS to deliver this pallet from the warehouse inventory.
+- **Confirm the replenishment pallet arrival**: This action confirms the arrival of the directed replenishment pallet to the specified location.
+- **Confirm pallet take away**: This action confirms to MixMaster that the pallet which was in this depal location has physically been removed.
+- **Update case quantity on pallet**: This action allows an operator to update MixMaster about how many cases are actually on a pallet currently at a depal location.
+    - **Note**: Make sure operators update the pallet quantity using this action if case breakage occurs or damaged layers are removed.
+    - The consequences of having incorrect case counts can be serious, causing significant delays.
+- **Logs**: This button brings up system logs for use by system experts.
+
